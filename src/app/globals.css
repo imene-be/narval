@@ -16,6 +16,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  *::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
   }
 
   html {
@@ -250,16 +258,3 @@
   transform: none;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: #F2F2F2;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #84A0AB;
-  border-radius: 3px;
-}
