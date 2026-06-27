@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Mentions légales — Narval Yachting",
+  title: "Mentions légales · Narval Yachting",
   description: "Mentions légales du site Narval Yachting.",
 };
 
@@ -32,7 +32,7 @@ const sections = [
           Ce site est hébergé chez <strong className="text-white/90">Vercel</strong>, une plateforme de déploiement pensée pour les projets web modernes.
         </p>
         <p className="text-white/50">
-          Vercel Inc., 340 Pine Street, Suite 700, San Francisco, CA 94104, États-Unis — vercel.com
+          Vercel Inc., 340 Pine Street, Suite 700, San Francisco, CA 94104, États-Unis · vercel.com
         </p>
       </>
     ),

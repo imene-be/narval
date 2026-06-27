@@ -63,7 +63,7 @@ export default function WhyNarval() {
           <div className="divider mb-6" />
           <p className="font-body text-base text-narval-dark/85 leading-relaxed max-w-xl">
             Narval n&apos;est pas une simple location de bateau. C&apos;est une
-            invitation à vivre la mer autrement — avec élégance, sécurité, et
+            invitation à vivre la mer autrement, avec élégance, sécurité, et
             une attention aux détails qui fait toute la différence.
           </p>
         </div>

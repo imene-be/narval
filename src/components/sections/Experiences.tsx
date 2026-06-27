@@ -5,7 +5,7 @@ const experiences = [
     subtitle: "De l'aube au coucher du soleil",
     description:
       "Partez à l'aventure pour une journée complète en mer. Ancrage dans des criques secrètes, baignade, déjeuner à bord. Le tout avec votre skipper dédié.",
-    duration: "8h — 10h",
+    duration: "8h à 10h",
     capacity: "Jusqu'à 12 personnes",
     from: "À partir de 890 €",
     image:
@@ -17,7 +17,7 @@ const experiences = [
     subtitle: "Anniversaires · EVJF · Séminaires",
     description:
       "Transformez votre événement en souvenir inoubliable. Champagne, décoration sur mesure, restauration premium. La mer comme cadre unique.",
-    duration: "4h — 12h",
+    duration: "4h à 12h",
     capacity: "Jusqu'à 20 personnes",
     from: "À partir de 1 490 €",
     image:

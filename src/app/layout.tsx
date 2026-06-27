@@ -19,7 +19,7 @@ const raleway = Raleway({
 
 
 export const metadata: Metadata = {
-  title: "Narval — L'élégance en mer",
+  title: "Narval · L'élégance en mer",
   description:
     "Location de yachts de luxe. Vivez une expérience maritime d'exception, accessible et inoubliable.",
 };

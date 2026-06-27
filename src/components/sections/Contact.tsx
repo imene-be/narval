@@ -209,7 +209,7 @@ export default function Contact() {
                 </button>
 
                 <p className="font-body text-[10px] text-center text-narval-dark/40 tracking-wider">
-                  Réponse garantie sous 24h — Devis sans engagement
+                  Réponse garantie sous 24h · Devis sans engagement
                 </p>
               </form>
             )}

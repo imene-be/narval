@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Nos Expériences — Narval Yachting",
+  title: "Nos Expériences · Narval Yachting",
   description:
     "Découvrez nos expériences en mer : journée en mer, événement privé ou week-end croisière en Méditerranée. Skippers certifiés, tout inclus.",
 };

@@ -18,7 +18,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto" style={{ textShadow: "0 2px 24px rgba(0,10,20,0.55)" }}>
         <p className="animate-fade-up section-label text-white/60 mb-8">
-          Location de yacht — Méditerranée
+          Location de yacht · Méditerranée
         </p>
 
         <h1 className="animate-fade-up-delay-1 font-display text-white leading-none mb-6"

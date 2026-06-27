@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Nos Destinations — Narval Yachting",
+  title: "Nos Destinations · Narval Yachting",
   description:
     "Côte d'Azur, Monaco, Saint-Tropez, Corse, Sardaigne, Portofino... Découvrez les destinations Méditerranée accessibles depuis notre base.",
 };

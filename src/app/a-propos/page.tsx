@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "À propos — Narval Yachting",
+  title: "À propos · Narval Yachting",
   description:
     "L'histoire de Narval Yachting, notre passion pour la mer et notre exigence pour l'excellence en Méditerranée.",
 };
@@ -85,7 +85,7 @@ export default function AProposPage() {
                     Fondée par des passionnés de navigation, notre société a vu le jour sur la Côte d&apos;Azur avec un premier yacht et une idée fixe : offrir des expériences en mer d&apos;une qualité irréprochable, accessibles à ceux qui cherchent l&apos;exceptionnel sans les codes parfois froids du yachting traditionnel.
                   </p>
                   <p>
-                    Au fil des années, nous avons affiné notre approche. Chaque sortie est pensée comme une invitation à ralentir, à regarder, à ressentir. Nos skippers ne sont pas des prestataires — ils sont des guides, des complices de vos meilleurs souvenirs.
+                    Au fil des années, nous avons affiné notre approche. Chaque sortie est pensée comme une invitation à ralentir, à regarder, à ressentir. Nos skippers ne sont pas des prestataires, ils sont des guides, des complices de vos meilleurs souvenirs.
                   </p>
                   <p>
                     Aujourd&apos;hui, avec deux yachts et une équipe soudée, Narval continue de naviguer avec la même exigence du premier jour : vous offrir le meilleur de la Méditerranée.

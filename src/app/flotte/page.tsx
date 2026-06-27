@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Notre Flotte — Narval Yachting",
+  title: "Notre Flotte · Narval Yachting",
   description:
     "Découvrez le Narval I et le Narval II, deux yachts d'exception entretenus aux plus hauts standards pour une navigation irréprochable en Méditerranée.",
 };
@@ -10,7 +10,7 @@ export const metadata = {
 const standards = [
   {
     titre: "Entretien annuel complet",
-    description: "Révision mécanique, coque, équipements — chaque année sans exception.",
+    description: "Révision mécanique, coque, équipements, chaque année sans exception.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M18 4v4M18 28v4M4 18h4M28 18h4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
