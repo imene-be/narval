@@ -131,7 +131,7 @@ export default function ExperiencesPage() {
 
       <main>
         {/* Section 1 — Les 3 expériences */}
-        <section className="bg-narval-light py-24 px-6">
+        <section className="bg-narval-light py-14 md:py-24 px-6">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {experiences.map((exp, i) => (

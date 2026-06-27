@@ -59,14 +59,14 @@ export default function AProposPage() {
 
       <main>
         {/* Section — Notre histoire */}
-        <section className="bg-narval-light py-24 px-6">
+        <section className="bg-narval-light py-14 md:py-24 px-6">
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
               <div className="overflow-hidden rounded-2xl">
                 <img
                   src="https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1200&q=85&fit=crop"
                   alt="Yacht Narval en Méditerranée"
-                  className="w-full h-[560px] object-cover img-overlay"
+                  className="w-full h-[280px] sm:h-[420px] lg:h-[560px] object-cover img-overlay"
                 />
               </div>
 
@@ -97,9 +97,9 @@ export default function AProposPage() {
         </section>
 
         {/* Section — Nos valeurs */}
-        <section className="bg-narval-dark py-20 px-6">
+        <section className="bg-narval-dark py-14 md:py-20 px-6">
           <div className="max-w-7xl mx-auto">
-            <h2 className="section-title-light text-center mb-16">Nos valeurs</h2>
+            <h2 className="section-title-light text-center mb-10 md:mb-16">Nos valeurs</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {valeurs.map((valeur) => (
                 <div key={valeur.titre} className="bg-white/5 border border-white/10 rounded-2xl p-10">
@@ -115,10 +115,10 @@ export default function AProposPage() {
         </section>
 
         {/* Section — Notre équipe */}
-        <section className="bg-narval-light py-20 px-6">
+        <section className="bg-narval-light py-14 md:py-20 px-6">
           <div className="max-w-7xl mx-auto">
             <p className="section-label text-center mb-4">Notre équipe</p>
-            <h2 className="section-title text-center mb-16">
+            <h2 className="section-title text-center mb-10 md:mb-16">
               Des visages<br />
               <em className="font-display italic text-narval-teal">derrière chaque sortie</em>
             </h2>

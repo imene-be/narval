@@ -48,10 +48,10 @@ const reasons = [
 
 export default function WhyNarval() {
   return (
-    <section id="pourquoi" className="bg-narval-light py-32 px-6">
+    <section id="pourquoi" className="bg-narval-light py-16 md:py-32 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="mb-16" data-animate>
+        <div className="mb-10 md:mb-16" data-animate>
           <p className="section-label mb-5">Notre promesse</p>
           <h2 className="section-title mb-6">
             Pourquoi

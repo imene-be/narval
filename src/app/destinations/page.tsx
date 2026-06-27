@@ -120,7 +120,9 @@ export default function DestinationsPage() {
               ].map((fact, i) => (
                 <div
                   key={fact.chiffre}
-                  className={`py-6 px-8 ${i !== 0 ? "border-l border-white/10" : ""}`}
+                  className={`py-5 px-4 sm:py-6 sm:px-8 ${
+                    i % 2 === 1 ? "border-l border-white/10" : i === 2 ? "lg:border-l lg:border-white/10" : ""
+                  }`}
                 >
                   <p className="font-display text-white font-light mb-1" style={{ fontSize: "clamp(22px, 2.5vw, 32px)" }}>
                     {fact.chiffre}

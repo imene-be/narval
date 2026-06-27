@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-narval-dark pt-20 pb-10 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Top */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 pb-16 border-b border-white/10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 pb-16 border-b border-white/10">
           {/* Brand */}
           <div className="md:col-span-2">
             <Image src="/logo-narval.svg" alt="Narval" width={200} height={108} className="brightness-0 invert opacity-70" />
@@ -82,7 +82,7 @@ export default function Footer() {
           <p className="font-body text-[11px] text-white/25 tracking-wider">
             © {new Date().getFullYear()} Narval Yachting. Tous droits réservés.
           </p>
-          <div className="flex items-center gap-6">
+          <div className="flex flex-wrap items-center gap-6">
             <a href="/mentions-legales" className="font-body text-[11px] text-white/25 hover:text-white/50 transition-colors tracking-wider">
               Mentions légales
             </a>

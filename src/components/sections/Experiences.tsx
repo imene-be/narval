@@ -39,10 +39,10 @@ const experiences = [
 
 export default function Experiences() {
   return (
-    <section id="experiences" className="bg-narval-light py-32 px-6">
+    <section id="experiences" className="bg-narval-light py-16 md:py-32 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="flex flex-col items-center text-center mb-20">
+        <div className="flex flex-col items-center text-center mb-12 md:mb-20">
           <p className="section-label mb-5">Ce que nous proposons</p>
           <h2 className="section-title mb-6">
             Nos expériences

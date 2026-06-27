@@ -70,16 +70,16 @@ export default function FlottePage() {
 
       <main>
         {/* Section 1 — Catalogue yachts */}
-        <section className="bg-narval-light py-24 px-6">
+        <section className="bg-narval-light py-14 md:py-24 px-6">
           <div className="max-w-7xl mx-auto">
 
             {/* Narval I */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20 items-center" data-animate>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-14 md:mb-20 items-center" data-animate>
               <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=1200&q=85&fit=crop"
                   alt="Narval I"
-                  className="w-full h-[500px] object-cover rounded-2xl"
+                  className="w-full h-[260px] sm:h-[380px] lg:h-[500px] object-cover rounded-2xl"
                 />
                 <span className="absolute top-6 left-6 bg-narval-teal text-white text-xs tracking-widest uppercase px-4 py-2 rounded-sm">
                   Le plus demandé
@@ -94,7 +94,7 @@ export default function FlottePage() {
                 <p className="font-body text-narval-dark/80 leading-relaxed mb-8">
                   Notre fleuron, le Narval I, est un yacht à moteur de 14 mètres alliant performance et confort. Avec son pont soleil aménagé et son salon panoramique, il offre une expérience incomparable en Méditerranée.
                 </p>
-                <div className="grid grid-cols-3 gap-4 mb-8 pb-8 border-b border-narval-dark/10">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8 pb-8 border-b border-narval-dark/10">
                   {[["Longueur","14 m"],["Capacité","12 pers."],["Vitesse","28 nœuds"],["Année","2019"],["Cabines","3"],["Privatisation","Sur demande"]].map(([label, value]) => (
                     <div key={label}>
                       <p className="font-body text-[10px] tracking-[0.2em] uppercase text-narval-slate mb-1">{label}</p>
@@ -118,12 +118,12 @@ export default function FlottePage() {
             </div>
 
             {/* Narval II */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center" data-animate data-delay="150">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center" data-animate data-delay="150">
               <div className="lg:order-2 relative">
                 <img
                   src="https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1200&q=85&fit=crop"
                   alt="Narval II"
-                  className="w-full h-[500px] object-cover rounded-2xl"
+                  className="w-full h-[260px] sm:h-[380px] lg:h-[500px] object-cover rounded-2xl"
                 />
                 <span className="absolute top-6 left-6 bg-narval-navy text-white text-xs tracking-widest uppercase px-4 py-2 rounded-sm">
                   Expérience voile
@@ -138,7 +138,7 @@ export default function FlottePage() {
                 <p className="font-body text-narval-dark/80 leading-relaxed mb-8">
                   Pour ceux qui veulent vivre la navigation dans sa forme la plus pure, le Narval II est un voilier de 11 mètres offrant une connexion authentique avec les éléments. Silencieux, élégant, il glisse sur les eaux méditerranéennes avec une grâce incomparable.
                 </p>
-                <div className="grid grid-cols-3 gap-4 mb-8 pb-8 border-b border-narval-dark/10">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8 pb-8 border-b border-narval-dark/10">
                   {[["Longueur","11 m"],["Capacité","8 pers."],["Vitesse","12 nœuds"],["Année","2021"],["Cabines","2"],["Privatisation","Sur demande"]].map(([label, value]) => (
                     <div key={label}>
                       <p className="font-body text-[10px] tracking-[0.2em] uppercase text-narval-slate mb-1">{label}</p>
@@ -165,11 +165,11 @@ export default function FlottePage() {
         </section>
 
         {/* Section 2 — Standards + CTA fusionnés */}
-        <section className="bg-narval-light py-24 px-6">
+        <section className="bg-narval-light py-14 md:py-24 px-6">
           <div className="max-w-7xl mx-auto">
 
             {/* Header */}
-            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-8 mb-16">
+            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-8 mb-10 md:mb-16">
               <div>
                 <p className="section-label mb-4">Nos engagements</p>
                 <h2 className="section-title">Les standards Narval</h2>
