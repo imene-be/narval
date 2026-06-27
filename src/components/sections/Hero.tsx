@@ -17,7 +17,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto" style={{ textShadow: "0 2px 24px rgba(0,10,20,0.55)" }}>
-        <p className="animate-fade-up section-label text-white/60 mb-8">
+        <p className="animate-fade-up font-body text-[11px] tracking-[0.35em] uppercase text-white font-bold mb-8">
           Location de yacht · Méditerranée
         </p>
 
@@ -40,7 +40,7 @@ export default function Hero() {
           <a href="#experiences" className="btn-primary">
             Découvrir nos expériences
           </a>
-          <a href="#flotte" className="font-body text-[11px] tracking-[0.2em] uppercase text-white/60 hover:text-white transition-colors duration-200">
+          <a href="#flotte" className="font-body text-[11px] tracking-[0.2em] uppercase text-white font-bold hover:text-white/70 transition-colors duration-200">
             Notre flotte →
           </a>
         </div>
