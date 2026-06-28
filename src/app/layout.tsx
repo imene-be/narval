@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Raleway } from "next/font/google";
 import "./globals.css";
 import ScrollAnimations from "@/components/ScrollAnimations";
+import { Analytics } from "@vercel/analytics/next";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -37,6 +38,7 @@ export default function RootLayout({
 <body className="min-h-full bg-narval-light text-narval-dark antialiased">
         <ScrollAnimations />
         {children}
+        <Analytics />
       </body>
     </html>
   );

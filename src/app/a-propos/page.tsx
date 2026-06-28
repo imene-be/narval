@@ -96,6 +96,20 @@ export default function AProposPage() {
           </div>
         </section>
 
+        {/* Section — Citation */}
+        <section className="bg-narval-dark py-20 md:py-28 px-6">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="font-display text-white/15 text-6xl leading-none mb-6">&ldquo;</p>
+            <blockquote
+              className="font-display text-white/80 font-light leading-snug italic mb-8"
+              style={{ fontSize: "clamp(22px, 3vw, 36px)" }}
+            >
+              L&apos;élégance n&apos;est pas un luxe. C&apos;est la façon dont on choisit de vivre la mer.
+            </blockquote>
+            <div className="divider mx-auto" />
+          </div>
+        </section>
+
         {/* Section — Nos valeurs */}
         <section className="bg-narval-dark py-14 md:py-20 px-6">
           <div className="max-w-7xl mx-auto">
